@@ -5,7 +5,7 @@ pipeline {
        steps {
          bat 'npm install'
          bat 'npm --version'
-         bat 'C:\\Projects\\node-express-hello-world\\app.js'
+         bat 'pm2 start app.js'
         }
       }
     }
